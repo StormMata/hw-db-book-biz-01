@@ -1,0 +1,60 @@
+Entity: Publishers
+	Property: PublisherID
+	Property: Name
+	Property: City
+Entity: Authors
+	Property: AuthorID
+	Property: Name
+Entity: Customers
+	Property: CustomerID
+	Property: Name
+Entity: Books
+	Property: ISBN
+	Property: Title
+	Property: Genre
+	Property: PubDate
+	Property: Price
+	Property: PublisherID
+Entity: Editors
+	Property: EditorID
+	Property: PublisherID
+	Property: Name
+Entity: Orders
+	Property: OrderID
+	Property: Date
+	Property: Total
+	Property: CustomerID
+Entity: Shipments
+	Property: OrderID
+	Property: ISBN
+Entity: BookEditors
+	Property: EditorID
+	Property: ISBN
+Entity: BookAuthors
+	Property: AuthorID
+	Property: ISBN
+	Property: Royalty
+
+Primary Keys
+	PublisherID
+	AuthorID
+	CustomerID
+	ISBN
+	EditorID
+	OrderID
+	OrderID,ISBN
+	EditorID,ISBN
+	AuthorID,ISBN
+
+Cardinality
+
+Books 		-> Shipments	1:N
+Books		-> BookEditors	N:N
+Books		-> Publishers	N:1
+Books		-> BookAuthors	N:N
+Authors		-> BookAuthors	N:N
+Publishers	-> Editors	1:N
+BookEditors	-> Editors	N:1
+Shipments	-> Orders	N:1
+Orders		-> Customers	N:1
+

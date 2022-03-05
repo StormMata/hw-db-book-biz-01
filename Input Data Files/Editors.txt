@@ -1,0 +1,15 @@
+INSERT INTO `Editors` VALUES(1,4,'Matthew Jones');
+INSERT INTO `Editors` VALUES(2,5,'Sherry Snyder');
+INSERT INTO `Editors` VALUES(3,5,'Erika Sparks');
+INSERT INTO `Editors` VALUES(4,3,'Deborah Gordon');
+INSERT INTO `Editors` VALUES(5,3,'Brett Acevedo');
+INSERT INTO `Editors` VALUES(6,3,'John Tapia');
+INSERT INTO `Editors` VALUES(7,1,'Mary Smith');
+INSERT INTO `Editors` VALUES(8,3,'Michael Johnson');
+INSERT INTO `Editors` VALUES(9,4,'Rebecca Moore');
+INSERT INTO `Editors` VALUES(10,4,'Sean Murray');
+INSERT INTO `Editors` VALUES(11,4,'Thomas Gomez DVM');
+INSERT INTO `Editors` VALUES(12,5,'Kimberly Ramirez');
+INSERT INTO `Editors` VALUES(13,5,'Sharon Mays');
+INSERT INTO `Editors` VALUES(14,4,'Anne Landry');
+INSERT INTO `Editors` VALUES(15,5,'Janet Burke');

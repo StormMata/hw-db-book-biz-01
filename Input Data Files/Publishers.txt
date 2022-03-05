@@ -1,0 +1,8 @@
+INSERT INTO `Publishers` VALUES(1,'Martinez Ltd','Mistyhaven');
+INSERT INTO `Publishers` VALUES(2,'Green-Dalton','Lake Davidberg');
+INSERT INTO `Publishers` VALUES(3,'Silva Inc','Lake Kevintown');
+INSERT INTO `Publishers` VALUES(4,'Crawford-Williams','Marksfort');
+INSERT INTO `Publishers` VALUES(5,'Ryan-Peterson','East Karafort');
+INSERT INTO `Publishers` VALUES(6,'Alexander, Barr and Woods','Samuelhaven');
+INSERT INTO `Publishers` VALUES(7,'Garza and Sons','East Samantha');
+INSERT INTO `Publishers` VALUES(8,'Barker-Moreno','West Stacy');
